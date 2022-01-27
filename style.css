@@ -22,12 +22,13 @@
   align-items: center;
 }
 
-.result-display {
+.display {
   width: 340px;
   height: 50px;
   border: 1px solid #777777;
   border-radius: 5px;
   background-color: #ece9e9;
+  text-align: right;
 }
 
 .button-zone {
