@@ -75,7 +75,7 @@ const decimal = () => {
 let localDecimalMemory = display.value;
 if (memoryNewNumber) {
   localDecimalMemory = "0.";
-  memoryNewNumber = false;
+  memoryNewNumber = true;
 } else {
   if (localDecimalMemory.indexOf(".") === -1) {
     localDecimalMemory += ".";
@@ -84,7 +84,7 @@ if (memoryNewNumber) {
 }
 }
 
-decimalButton.addEventListener("click", decimal)
+decimalBtn.addEventListener("click", decimal)
 
 clearBtns.forEach((op) => {
   op.addEventListener("click", (e) => {
